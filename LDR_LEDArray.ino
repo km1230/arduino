@@ -12,12 +12,12 @@ void loop() {
   int lightValue = 1024 - analogRead(ldrPin);
   
   if(lightValue > 500){
-    for(int i=0; i<9; i++){
+    for(int i=1; i<9; i++){
       led.Off(8-i);
       delay(200);
     }
   } else {
-    for(int i=0; i<9; i++){
+    for(int i=1; i<9; i++){
       led.On(i);
       delay(200);
     }
