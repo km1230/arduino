@@ -8,17 +8,17 @@ Simple experiments on arduino
 
 #
 
-##### LDR_LEDArray
+##### LDR_LEDArray (ATMega2560)
 * Detect room light
 * Turn on LEDArray bulbs from 1-8 under dim environment
 * Turn off LEDArray bulbs from 8-1 under bright environment
 
-##### LDR_RGB
+##### LDR_RGB (ATMega2560)
 * Detect room light
 * Turn RGB to purple under bright envrionment
 * Turn RGB to torquoise under dim envrionment
 
-##### PIR_FND_RGB
+##### PIR_FND_RGB (ATMega2560)
 * Detect heat change (incoming object) using PIR sensor + interruption
 * Count the number of interruption
 * Turn RGB from red (idle) to blue (interrupted) for 0.5s
