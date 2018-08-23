@@ -22,3 +22,13 @@ Simple experiments on arduino
 * Detect heat change (incoming object) using PIR sensor + interruption
 * Count the number of interruption
 * Turn RGB from red (idle) to blue (interrupted) for 0.5s
+
+##### UltrasonicAlarm (ATMega2560)
+* Detect incoming objects using Ultrasonic sensor
+* within 100-1000mm: buzzer beeps every second & turns LEDArray on (1 for every 100mm)
+* closer than 100mm: buzzer beeps and LEDArray blinks every 0.5seconds
+
+##### LightAlarm (ATMega2560)
+* Detect light using LDR sensor
+* Brightness < 400: RGBLED blinks on red
+* Brightness > 400: RGBLED on green
